@@ -6,8 +6,9 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,  // Añadir esta línea
     "strict": true,
-    "noEmit": true
+    "noEmit": true  // Asegurarte de que noEmit está configurado
   },
   "include": ["vite.config.ts"]
 }
